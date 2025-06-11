@@ -1,4 +1,4 @@
-fn get_index() -> &'static str {
+pub fn get_index() -> &'static str {
     "Hello, Actix!"
 }
 
